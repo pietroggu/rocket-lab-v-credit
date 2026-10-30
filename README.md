@@ -37,7 +37,7 @@ Os chamados são contados por `id_chamado`. As taxas de resolução consideram c
 
 Link de Apresentação
 
-🔗 Apresentação Executiva (Slides): https://docs.google.com/presentation/d/1iI-lNpGAfoaOATxug7eFuo3vARMqj9G97A_Gx19cfPc/edit?slide=id.h21613369c00ac88e_7_0#slide=id.h21613369c00ac88e_7_0)
+🔗 Apresentação Executiva (Slides): [https://docs.google.com/presentation/d/1iI-lNpGAfoaOATxug7eFuo3vARMqj9G97A_Gx19cfPc/edit?slide=id.h21613369c00ac88e_7_0#slide=id.h21613369c00ac88e_7_0)](https://docs.google.com/presentation/d/1iI-lNpGAfoaOATxug7eFuo3vARMqj9G97A_Gx19cfPc/edit?usp=sharing)
 
 🚀 Como Executar o Pipeline
 
