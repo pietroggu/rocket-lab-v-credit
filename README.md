@@ -35,13 +35,9 @@ Para visualizar o dashboard, mantenha o PBIX e a pasta `dados_bi/` na estrutura 
 
 Os chamados são contados por `id_chamado`. As taxas de resolução consideram chamados com status informado; o CSAT considera respostas válidas com nota 4 ou 5; e os tempos médios usam intervalos válidos. As comparações entre perfis são descritivas e não demonstram causalidade.
 
-Links de Apresentação e Painéis
+Link de Apresentação
 
-Preencha os links abaixo conforme finalizar os entregáveis visuais.
-
-🔗 Dashboard (Power BI / Visualização): [INSERIR_LINK_DO_DASHBOARD_AQUI]
-
-🔗 Apresentação Executiva (Slides): [INSERIR_LINK_DA_APRESENTACAO_AQUI]
+🔗 Apresentação Executiva (Slides): https://docs.google.com/presentation/d/1iI-lNpGAfoaOATxug7eFuo3vARMqj9G97A_Gx19cfPc/edit?slide=id.h21613369c00ac88e_7_0#slide=id.h21613369c00ac88e_7_0)
 
 🚀 Como Executar o Pipeline
 
