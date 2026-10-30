@@ -1,0 +1,15 @@
+﻿id_motivo,nome_motivo,categoria,criticidade
+11,Bloqueio De Cartão,Cartão,Alta
+7,Compra Não Autorizada,Cartão,Alta
+13,Dúvidas Gerais Sobre Programa De Pontos,Benefícios,Baixa
+14,Transferência De Agência,Cadastral,Media
+9,Problema Com Aplicativo,Atendimento,Media
+8,Consulta De Contrato,Financeiro,Media
+15,Renegociação De Dívida,Financeiro,Alta
+16,Cancelamento De Conta,Cadastral,Alta
+4,"Alteração De Dados Cadastrais (vencimento Da Fatura, Telefone, Email)",Cadastral,Baixa
+3,Contestação De Fatura,Financeiro,Alta
+6,Desbloqueio De Cartão,Cartão,Alta
+12,Contratação De Cartão Adicional,Cartão,Media
+5,Consulta De Limite,Financeiro,Baixa
+10,Consulta De Fatura,Financeiro,Baixa

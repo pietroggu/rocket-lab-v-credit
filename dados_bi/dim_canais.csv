@@ -1,0 +1,5 @@
+﻿id_canal,nome_canal,tipo_canal,status_canal,etapa_funil
+1,Ura,Autosservico,ativo,Autosserviço
+2,Chatbot,Autosservico,ativo,Autosserviço
+3,Atendimento Inicial,Humano,ativo,1º nível
+4,Atendimento Especializado,Humano,ativo,2º nível

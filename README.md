@@ -1,4 +1,4 @@
-V-Credit | Transformação Digital no Atendimento e Governança de Dados
+﻿V-Credit | Transformação Digital no Atendimento e Governança de Dados
 
 Repositório oficial da solução desenvolvida para o case da V-Credit (Visagio | Rocket Lab 2026). Este projeto aborda a reestruturação da operação de atendimento e da infraestrutura analítica, unindo engenharia de dados robusta (Arquitetura Medalhão no Databricks) e inteligência de negócio orientada a evidências.
 
@@ -18,7 +18,24 @@ O pipeline foi estruturado de forma modular e idempotente no Databricks, garanti
 
 05_Export_Gold_To_CSV: Rotina de exportação das tabelas da camada Gold para formato CSV, viabilizando a construção do painel analítico.
 
-📊 Links de Apresentação e Painéis
+## Dashboard Power BI
+
+O dashboard apresenta indicadores dos chamados da V-Credit entre janeiro de 2025 e julho de 2026, organizados em quatro páginas:
+
+- **Visão executiva:** panorama dos principais indicadores;
+- **Resolução:** análise dos resultados por canal e motivo;
+- **Custos, eficiência e satisfação:** acompanhamento dos custos e dos indicadores operacionais e de satisfação;
+- **Perfis:** recortes agregados de clientes e atendentes por região, faixa etária e nível de atendimento.
+
+### Estrutura e execução
+
+O arquivo `V_Credit.pbix`, na raiz do repositório, contém o relatório do Power BI. A pasta `dados_bi/` reúne os CSVs usados como fontes do modelo: `agg_visao_executiva_mensal.csv`, `dim_atendentes.csv`, `dim_canais.csv`, `dim_clientes.csv`, `dim_data.csv`, `dim_motivos.csv` e `fato_chamados.csv`.
+
+Para visualizar o dashboard, mantenha o PBIX e a pasta `dados_bi/` na estrutura do projeto, abra `V_Credit.pbix` no Power BI Desktop e, se solicitado, confirme ou ajuste a localização das fontes CSV para os arquivos correspondentes dentro de `dados_bi/`. Em seguida, navegue pelas quatro páginas do relatório.
+
+Os chamados são contados por `id_chamado`. As taxas de resolução consideram chamados com status informado; o CSAT considera respostas válidas com nota 4 ou 5; e os tempos médios usam intervalos válidos. As comparações entre perfis são descritivas e não demonstram causalidade.
+
+Links de Apresentação e Painéis
 
 Preencha os links abaixo conforme finalizar os entregáveis visuais.
 
@@ -33,3 +50,4 @@ O pipeline está totalmente orquestrado e parametrizado para execução idempote
 job_execução.yaml
 
 Para reexecutar manualmente, siga a ordem sequencial dos notebooks de 00_Config até 04_Gold_Layer.
+
